@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background-image: url(https://cf.bstatic.com/xdata/images/hotel/max1024x768/518332246.jpg?k=852d9e83009ac082a7bb8366d5e27fb1f21801ea9cb6dde9c14e1aa99c49ea63&o=&hp=1);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+.card-text{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+button{
+    width: 70%;
+    height: 10vh;
+    position: relative;
+    top: 4%;
+    font-size: 35px;
+    color: aliceblue;
+    border-color: rgb(57, 120, 214);
+    background-color: rgb(155, 111, 61);
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1{
+    background-color: aliceblue;
+    color: black;
+    border: 2px solid rgb(57, 120, 214);
+    border-radius: 25px;
+}
+
+.button1:hover{
+background-color: rgb(57, 120, 214);
+color: aliceblue;   
+}
